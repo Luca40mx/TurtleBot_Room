@@ -8,11 +8,11 @@ import math
 class CircleMover(Node):
     def __init__(self):
         super().__init__('circle_mover')
-        self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
+        self.publisher = self.create_publisher(Twist, '/cmd_vel_1', 10)
         timer_period = 0.1
         self.timer = self.create_timer(timer_period, self.move_in_circle)
-        self.radius = 0.2  # radius
-        self.linear_speed = 0.1  
+        self.radius = 0.5 # radius
+        self.linear_speed = 0.4
         self.angular_speed = self.linear_speed / self.radius  # convert from linear to angular speed
 
     def move_in_circle(self):
@@ -20,7 +20,6 @@ class CircleMover(Node):
         twist.linear.x = self.linear_speed
         twist.angular.z = self.angular_speed
         self.publisher.publish(twist)
-        self.get_logger().info(f'Linear speed: {self.linear_speed} m/s, Angular speed: {self.angular_speed} rad/s')
 
 def main(args=None):
     rclpy.init(args=args)
