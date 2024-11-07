@@ -8,7 +8,7 @@ public class LaserScanner2D : MonoBehaviourRosNode
 {
     
     public string NodeName = "laser_scanner";
-    public string ScanTopic = "scan";
+    public string ScanTopic = "scan_modificato";
 
     public Transform ScanLink;
     public string ScanLinkName = "base_scan";

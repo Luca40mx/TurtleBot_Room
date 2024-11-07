@@ -1,0 +1,535 @@
+Unity Editor version:    2021.3.14f1 (eee1884e7226)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #134~20.04.1-Ubuntu SMP Tue Oct 1 15:27:33 UTC 2024
+Kernel version:          5.15.0-124-generic
+Architecture:            x86_64
+Available memory:        3734 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:57545): Gdk-CRITICAL **: 15:20:14.405: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+Desktop is 1366 x 768 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/home/luca/TurtleBot_Room
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+43339
+Successfully changed project path to: /home/luca/TurtleBot_Room
+/home/luca/TurtleBot_Room
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 632,94 ms, found 352 plugins.
+Plugins: Couldn't open Assets/Plugins/Linux/x86_64/libdds_security_ac.so, error: libddsc.so.0: cannot open shared object file: No such file or directory
+Plugins: Couldn't open Assets/Plugins/Linux/x86_64/libdds_security_auth.so, error: libddsc.so.0: cannot open shared object file: No such file or directory
+Plugins: Couldn't open Assets/Plugins/Linux/x86_64/libdds_security_crypto.so, error: libddsc.so.0: cannot open shared object file: No such file or directory
+Preloading 350 native plugins for Editor in 313,63 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path /home/luca/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/luca/TurtleBot_Room/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) UHD Graphics 600 (GLK 2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 21.2.6
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_d
+erivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_pol
+ygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_
+object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_
+equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_t
+exture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1306886240
+Initialize mono
+Mono path[0] = '/home/luca/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = '/home/luca/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/luca/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56545
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/luca/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,024650 seconds.
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 111,13 ms, found 352 plugins.
+Preloading 350 native plugins for Editor in 48,56 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2089ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1422ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (609ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,028491 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 19,98 ms, found 352 plugins.
+Preloading 350 native plugins for Editor in 60,10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,501 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3503ms)
+		BeginReloadAssembly (309ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (2739ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (834ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (221ms)
+			SetupLoadedEditorAssemblies (1064ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (709ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 7,70 ms, found 352 plugins.
+Preloading 350 native plugins for Editor in 62,63 ms.
+Unloading 2161 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 392 unused Assets / (52,2 KB). Loaded Objects now: 2253.
+Memory consumption went from 80,7 MB to 80,6 MB.
+Total: 34,971599 ms (FindLiveObjects: 1,284953 ms CreateObjectMapping: 0,143828 ms MarkObjects: 31,486490 ms  DeleteObjects: 2,052703 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23687,176977 seconds.
+  path: Assets/Materials/CarpetLowPile.mat
+  artifactKey: Guid(96895972da32e4bb09fc4888b00d5111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CarpetLowPile.mat using Guid(96895972da32e4bb09fc4888b00d5111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1ae40dd43b4125a49e0e5fd3a44d1e') in 0,589202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000059 seconds.
+  path: Assets/Materials/Sleep.mat
+  artifactKey: Guid(b65a982beb586403ba2265c24c173140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sleep.mat using Guid(b65a982beb586403ba2265c24c173140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e642bed0ef602b346ef19496c05e2f05') in 0,046916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,004686 seconds.
+  path: Assets/Materials/Goal.mat
+  artifactKey: Guid(3ae77e8a1f01742b388b6260606f433f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Goal.mat using Guid(3ae77e8a1f01742b388b6260606f433f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fdc7b7ab61c119d6da122e2c577623') in 0,025952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000042 seconds.
+  path: Assets/Materials/UDS_BoxesLLogo.mat
+  artifactKey: Guid(9651c0d2a451c7e4f9174d67964dff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UDS_BoxesLLogo.mat using Guid(9651c0d2a451c7e4f9174d67964dff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5db644b98db3221f749143e19745e1') in 0,035666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,005026 seconds.
+  path: Assets/Materials/WoodPallet.mat
+  artifactKey: Guid(c8a340a772a02b64fb8cb87d38e3b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WoodPallet.mat using Guid(c8a340a772a02b64fb8cb87d38e3b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bc9a58a537b4008cfbf12efcb04215') in 0,124602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000070 seconds.
+  path: Assets/Materials/ConcreteWall.mat
+  artifactKey: Guid(7b56d3ad5d0c62143a5202ec157fd670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ConcreteWall.mat using Guid(7b56d3ad5d0c62143a5202ec157fd670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bed65f686d9a825f348fb60f5ef7fa') in 0,022801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000067 seconds.
+  path: Assets/Materials/LocationPicker.mat
+  artifactKey: Guid(245e520d8a4cd4ddfbb788a773412847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LocationPicker.mat using Guid(245e520d8a4cd4ddfbb788a773412847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c0b925ddb24c4458e2b5e8a3884eaa') in 0,051008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000048 seconds.
+  path: Assets/Materials/Sky.mat
+  artifactKey: Guid(9e66713204b0228498dcc3330c8c686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sky.mat using Guid(9e66713204b0228498dcc3330c8c686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e82bfb0ceb7b35075f51b9b097b59c5') in 0,047045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000042 seconds.
+  path: Assets/Materials/Debris.mat
+  artifactKey: Guid(6728125385d5e41429ce86668648a07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Debris.mat using Guid(6728125385d5e41429ce86668648a07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09aa666899f06d7929ec7a609393060') in 0,035057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000039 seconds.
+  path: Assets/Materials/UDS_BoxesSLogo.mat
+  artifactKey: Guid(1b866549c05013141b3d4529552ed0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UDS_BoxesSLogo.mat using Guid(1b866549c05013141b3d4529552ed0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c7536da176e78e466a6dfe98e09639') in 0,066166 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+All object instances wasn't destroyed before shutting down
+Assertion failed on expression: 'm_MemoryFSRefCount == 0'
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_CurlRequest]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Peak usage frame count: [0-1,0 KB]: 1 frames
+      Initial Block Size 32,0 MB
+      Current Block Size 32,0 MB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 1]
+      Initial Block Size 256,0 KB
+      Current Block Size 256,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 0]
+      Initial Block Size 256,0 KB
+      Current Block Size 256,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32,0 KB
+      Current Block Size 32,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32,0 KB
+      Current Block Size 40,0 KB
+      Peak Allocated Bytes 27,5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256,0 KB
+      Current Block Size 256,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_MAIN]
+      Initial Block Size 16,0 MB
+      Current Block Size 16,0 MB
+      Peak Allocated Bytes 12,8 MB
+      Overflow Count 0
+    [ALLOC_TEMP_CoreBusinessMetricsCache]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.IOService]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 32,6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Profiler.Dispatcher]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper]
+      Initial Block Size 64,0 KB
+      Current Block Size 64,0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_MEMORYPROFILER]
+  Requested Block Size 1,0 MB
+  Peak Block count 1
+  Peak Allocated memory 374,5 KB
+  Peak Large allocation bytes 0 B
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 18
+    [ALLOC_BUCKET]
+      Large Block size 32,0 MB
+      Used Block count 1
+      Peak Allocated bytes 4,7 MB
+    [ALLOC_DEFAULT_MAIN]
+      Requested Block Size 16,0 MB
+      Peak Block count 2
+      Peak Allocated memory 25,7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Requested Block Size 16,0 MB
+      Peak Block count 1
+      Peak Allocated memory 343,3 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2,0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2,0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2,0 MB
+  Used Block Count 2
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1,0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 32,0 MB
+      Used Block count 1
+      Peak Allocated bytes 4,7 MB
+    [ALLOC_GFX_MAIN]
+      Requested Block Size 16,0 MB
+      Peak Block count 2
+      Peak Allocated memory 16,4 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Requested Block Size 16,0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 11600
+    [ALLOC_BUCKET]
+      Large Block size 32,0 MB
+      Used Block count 1
+      Peak Allocated bytes 4,7 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Requested Block Size 4,0 MB
+      Peak Block count 10
+      Peak Allocated memory 38,6 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Requested Block Size 4,0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 12593
+    [ALLOC_BUCKET]
+      Large Block size 32,0 MB
+      Used Block count 1
+      Peak Allocated bytes 4,7 MB
+    [ALLOC_TYPETREE_MAIN]
+      Requested Block Size 2,0 MB
+      Peak Block count 6
+      Peak Allocated memory 9,5 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Requested Block Size 2,0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+[ALLOC_PROFILER]
+  Requested Block Size 16,0 MB
+  Peak Block count 1
+  Peak Allocated memory 28,3 KB
+  Peak Large allocation bytes 0 B
+    [ALLOC_PROFILER_BUCKET]
+      Large Block size 32,0 MB
+      Used Block count 1
+      Peak Allocated bytes 272 B
+[ALLOC_PROFILER_EDITOR]
+  Requested Block Size 1,0 MB
+  Peak Block count 0
+  Peak Allocated memory 0 B
+  Peak Large allocation bytes 0 B
+    [ALLOC_PROFILER_BUCKET]
+      Large Block size 32,0 MB
+      Used Block count 1
+      Peak Allocated bytes 272 B
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1730989308674,"processId":57545,"allocatedMemory":28905800,"memoryLabels":[{"Default":36027},{"Permanent":17880},{"Thread":1097272},{"Manager":940667},{"VertexData":91004},{"Geometry":688},{"Particles":17856},{"VFX":768},{"Texture":118273},{"Shader":139545},{"Material":5572},{"GfxDevice":221280},{"Animation":15006},{"Audio":4508},{"Font":1400},{"Physics":268221},{"Physics2D":152912},{"Serialization":3508118},{"Input":59504},{"JobScheduler":584},{"GarbageCollector":1049152},{"Mono":92},{"ScriptingNativeRuntime":43520},{"BaseObject":1810722},{"Resource":1180},{"Renderer":10200},{"Transform":48},{"File":11283},{"Network":3064},{"WebCam":24},{"Culling":48},{"Terrain":1065},{"TerrainPhysics":8},{"Wind":24},{"STL":135936},{"String":10632364},{"DynamicArray":760791},{"HashMap":1018441},{"Utility":2368619},{"Curl":1112},{"PoolAlloc":262952},{"AI":59616},{"TypeTree":2064},{"ScriptManager":917101},{"RuntimeInitializeOnLoadManager":72},{"AncestorCache":32},{"SpriteAtlas":112},{"GI":15312},{"Unet":16},{"Director":7816},{"WebRequest":720},{"VR":45921},{"SceneManager":640},{"Video":256},{"LazyScriptCache":32},{"ManagedAttributeManager":1},{"TextureStreaming":1416},{"NativeArray":12},{"ScreenCapture":8},{"Camera":25},{"Secure":1},{"CrashReporter":968},{"SerializationCache":624},{"APIUpdating":5872},{"Subsystems":384},{"VirtualTexturing":59424},{"StaticSafetyDebugInfo":327752},{"EditorGui":8084},{"EditorUtility":18375},{"VersionControl":4},{"Undo":450},{"AssetDatabase":2258844},{"AssetImporter":272053},{"RestService":5994},{"EditorGi":23712},{"ProgressiveLightmapper":10832},{"License":48},{"UnityConnect":28584},{"Collab":641},{"Upm":1128},{"DrivenProperties":80},{"HubClient":32},{"LocalIPC":120},{"ProfilerEditor":20157},{"CoreBusinessMetrics":2703},{"AssetReference":32}]}
