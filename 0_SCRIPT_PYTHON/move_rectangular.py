@@ -53,6 +53,14 @@ class RectangularPath(Node):
             self.move_forward(self.side_lengths[1])  # Lato corto (1 metro)
             self.turn_90_degrees()
 
+    def robot_stop(self):
+        twist=Twist()
+
+        twist.angular.z=0.0
+        twist.linear.x=0.0
+        self.cmd_vel_publisher.publish(twist)
+        
+
 def main(args=None):
     rclpy.init(args=args)
     rectangular_path_node = RectangularPath()
@@ -62,7 +70,8 @@ def main(args=None):
         while rclpy.ok():
             rectangular_path_node.run_path()  # Ripete continuamente la traiettoria
     except KeyboardInterrupt:
-        pass  # Permette di fermare lo script con Ctrl+C
+        rectangular_path_node.robot_stop()
+        time.sleep(0.5)
 
     # Distruggi il nodo quando lo script viene interrotto
     rectangular_path_node.destroy_node()
